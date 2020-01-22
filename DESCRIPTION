@@ -1,0 +1,16 @@
+Package: shinyscroll
+Title: Scroll in 'Shiny'
+Version: 0.0.1
+Authors@R: 
+    person(given = "John",
+           family = "Coene",
+           role = c("aut", "cre"),
+           email = "jcoenep@gmail.com")
+Description: Scroll in 'Shiny'.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+Imports:
+    shiny
+RoxygenNote: 7.0.2
