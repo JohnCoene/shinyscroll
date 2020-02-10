@@ -4,10 +4,12 @@
 \alias{scroll}
 \title{Scroll}
 \usage{
-scroll(id)
+scroll(id, block = c("start", "center", "end", "nearest"))
 }
 \arguments{
 \item{id}{Id of element to scroll to.}
+
+\item{block}{Defines vertical alignment.}
 }
 \description{
 Scroll to a certain element in Shiny.
