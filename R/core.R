@@ -21,7 +21,7 @@ scroll <- function(id, block = c("start", "center", "end", "nearest")){
   if(missing(id))
     stop("Missing `id`", call. = FALSE)
   
-  blk <- match.arg(blk)
+  blk <- match.arg(block)
   
   session <- shiny::getDefaultReactiveDomain()
   session$sendCustomMessage("scrolly-scroll", list(id = id, block = blk))
