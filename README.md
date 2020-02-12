@@ -50,3 +50,5 @@ shinyApp(ui, server)
 ```
 
 ![](./man/figures/shinyscroll.gif)
+
+It's also used in the DXY tab of the [coronavirus tracker](http://shiny.john-coene.com/coronavirus)
